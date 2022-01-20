@@ -28,8 +28,16 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
-.score-container{
+.score-container {
   line-height: 4rem;
   color: #ff0;
   font-size: 2rem;
+}
+svg {
+  display: block;
+  height: 3.5rem;
+}
+a {
+  display: flex;
+  align-items: center;
 }

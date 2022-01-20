@@ -1,76 +1,79 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-h2::after{
-content: '?';
+h2::after {
+  content: "?";
 }
-body{
-    background: rgb(43, 43, 43);
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    text-align: center;
+body {
+  background: rgb(43, 43, 43);
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
 }
-.counter{
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    font-size: 1.3rem;
+.counter {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1.3rem;
 }
-section .question{
-    color: red;
+section .question {
+  color: red;
 }
-section p{
-    width: 400px;
-    border: 2px gold solid ;
-    height: 40px;
-    font-size: 1.3rem;
-    border-radius: 20px;
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-
+section p {
+  width: 500px;
+  border: 2px gold solid;
+  height: 40px;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-section button{
-    background: none;
-    outline: none;
-    border: none;
-    font-size: 2rem;
-    margin-top: 35px;
-    cursor: pointer;
-    color: #fff;
+section button {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  margin-top: 35px;
+  cursor: pointer;
+  color: #fff;
 }
-section p:hover{
-    color: rgb(43, 43, 43);
-    background: #fff;
-    border: none;
+section p:hover {
+  color: rgb(43, 43, 43);
+  background: #fff;
+  border: none;
 }
-.question-num{
-    position: relative;
-    font-size: 5rem;
+.question-num {
+  position: relative;
+  font-size: 5rem;
 }
-.question{
-    margin: 30px 0;
+.question {
+  margin: 30px 0;
 }
-.question-num::before{
-    position: absolute;
-    content: "";
-    height: 5px;
-    width: 100px;
-    background: gold;
-    bottom: -5px;
-    border-radius: 10px;
+.question-num::before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 100px;
+  background: gold;
+  bottom: -5px;
+  border-radius: 10px;
 }
-p.selected{
-    color: rgb(43, 43, 43);
-    background: #fff;
-    border: none;
+p.selected {
+  color: rgb(43, 43, 43);
+  background: #fff;
+  border: none;
+}
+svg {
+  height: 25px;
+  width: 25px;
 }

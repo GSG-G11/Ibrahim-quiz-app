@@ -71,9 +71,9 @@ function loadCurrentQuestion(randomArr, index) {
             if (currentIndex < NUM_OF_QUESTIONS) {
                 loadCurrentQuestion(randomArr, currentIndex)
             } else {
-                localStorage.setItem('score',score)
-                location.href='../score/score.html'
-                        }
+                localStorage.setItem('score', score)
+                location.href = '../score/score.html'
+            }
         }
     }
 }
