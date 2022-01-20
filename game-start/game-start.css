@@ -69,3 +69,8 @@ section p:hover{
     bottom: -5px;
     border-radius: 10px;
 }
+p.selected{
+    color: rgb(43, 43, 43);
+    background: #fff;
+    border: none;
+}
