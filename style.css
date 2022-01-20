@@ -16,6 +16,8 @@ body{
 }
 a{
     color: #fff;
+    text-decoration: none;
+
 }
 header{
     font-size: 2rem;
@@ -31,6 +33,7 @@ input{
     text-align: center;
     border: none;
     outline: none;
+    font-size: 1.1rem;
 }
 input::placeholder{
     font-size: 1.1rem;
@@ -51,4 +54,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width:400px
+}
+::selection{
+    background: rosybrown;
 }
